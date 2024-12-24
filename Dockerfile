@@ -1,5 +1,5 @@
 # Stage 1: Build Stage
-FROM node:lts AS build
+FROM node:lts-alpine AS build
 
 # Set working directory
 WORKDIR /app
